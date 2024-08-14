@@ -9,7 +9,7 @@ export class QuestionController {
     @Query('page') page: number,
     @Query('pageSize') pageSize: number,
   ) {
-    console.log(keyword, page, pageSize)
+    console.log(keyword, page, pageSize);
     return {
       list: ['a', 'b', 'c'],
       count: 10,
